@@ -11,7 +11,6 @@
     <h1>PARKIR MOBIL BANG ANDRE</h1>
     <menu>
         <button><a href="form_mobil_masuk.php">Mobil Masuk</a></button>
-        <button><a href="mobil-keluar.php">Mobil Keluar</a></button>
         <button><a href="list_mobil_parkir.php">Data Mobil</a></button>
     </menu>
     <span>

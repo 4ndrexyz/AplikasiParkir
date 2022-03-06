@@ -1,6 +1,6 @@
 <?php include 'config.php' ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,7 +35,7 @@
             <tr>
                 <td></td>
                 <td></td>
-                <td><br><input type="submit" name="kirim" value="Kirim"> <input type="reset" value="Reset"></td>
+                <td><br><input type="submit" name="kirim" value="Kirim"> <input type="reset" value="Reset"> <button><a href="index.php">Kembali</a></button></td>
             </tr>
         </table>
     </form>

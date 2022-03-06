@@ -9,6 +9,8 @@
 </head>
 <body>
     <h1>Data Parkir Mobil</h1>
+    <button><a href="form_mobil_masuk.php">[+] Tambah Mobil</a></button>
+    <br><br>
     <table style="text-align: center;" border="1" cellpadding="5" cellspacing="0">
         <thead>
             <tr>
@@ -37,8 +39,8 @@
                 echo "<td>" . date('d F Y') . "</td>";
                 echo "<td>" . $mobil['waktu_masuk'] . "</td>";
                 echo "<td>";
-                echo "<a href = 'edit.php=" . $mobil['id'] . "'>Edit | </a>";
-                echo "<a href = 'delete.php=" . $mobil['id'] . "'>Delete</a>";
+                echo "<a href = 'form_update.php?id=" . $mobil['id'] . "'>Edit | </a>";
+                echo "<a href = 'form_delete.php?id=" . $mobil['id'] . "'>Delete</a>";
                 echo "</td>";
                 echo "</tr>";
             }
@@ -46,5 +48,7 @@
             ?>
         </tbody>
     </table>
+    <br>
+    Total : <?php echo mysqli_num_rows($query)?> Mobil
 </body>
 </html>
